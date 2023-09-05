@@ -1,15 +1,16 @@
 # Fdb version 4
-["bibtex ejemploLatex"] 1693928985 "ejemploLatex.aux" "ejemploLatex.bbl" "ejemploLatex" 1693950836 0
+["bibtex ejemploLatex"] 1693928985 "ejemploLatex.aux" "ejemploLatex.bbl" "ejemploLatex" 1693952253 0
   (generated)
   "ejemploLatex.bbl"
   "ejemploLatex.blg"
   (rewritten before read)
-["pdflatex"] 1693950834 "c:/Users/brand/OneDrive/Documentos/Upiita/2023-2/TransmisiondeDatos/TDD--Apuntes/IoT/ejemploLatex.tex" "build/ejemploLatex.pdf" "ejemploLatex" 1693950836 0
-  "C:/Users/brand/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693882406 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1693952251 "c:/Users/brand/OneDrive/Documentos/Upiita/2023-2/TransmisiondeDatos/TDD--Apuntes/IoT/ejemploLatex.tex" "build/ejemploLatex.pdf" "ejemploLatex" 1693952253 0
+  "C:/Users/brand/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693952248 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/brand/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1693948914 11548 b19401cf8a98e580ed388a0ef7ce5c6c ""
   "C:/Users/brand/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1693787392 24120578 5d8475559bbe61efe5331b898f9cb274 ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136793854 2172 fd0c924230362ff848a33632ed45dc23 ""
+  "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb8r.tfm" 1136793854 4524 6bce29db5bc272ba5f332261583fee9c ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmbi7t.tfm" 1136793854 2228 e564491c42a4540b5ebb710a75ff306c ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmr7t.tfm" 1136793854 2124 2601a75482e9426d33db523edf23570a ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmr8c.tfm" 1136793854 1352 fa28a7e6d323c65ce7d13d5342ff6be2 ""
@@ -29,8 +30,10 @@
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy5.tfm" 1136765053 520 d082ac03a1087bc1ec2a06e24a9f68c0 ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy7.tfm" 1136765053 520 a74c6ed8cb48679fdc3ea874d9d34a7e ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
+  "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136874948 44729 fea0975e20ec51c992338362f05f1146 ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb" 1136874948 46026 687528a208fbfc1f00832bb96cccebbb ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb" 1136874948 45458 504e2b06fa82109d168c7a0afb09e145 ""
+  "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmb7t.vf" 1136793854 1372 788387fea833ef5963f4c5bffe33eb89 ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmr7t.vf" 1136793854 1380 0ea3a3370054be6da6acd929ec569f06 ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmrc7t.vf" 1136793854 1948 7330aeef3af211edff3b35fb2c12a0fd ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmri7t.vf" 1136793854 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
@@ -110,11 +113,12 @@
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/brand/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "build/ejemploLatex.aux" 1693950836 1926 59b8995f29d2b41e0054c44839507873 "pdflatex"
-  "build/ejemploLatex.out" 1693950836 1074 1ed0ba76c30deb107b2d6c0f5df4381d "pdflatex"
-  "c:/Users/brand/OneDrive/Documentos/Upiita/2023-2/TransmisiondeDatos/TDD--Apuntes/IoT/ejemploLatex.tex" 1693950833 6829 b28492feda4b8bd33befe3339cbabe95 ""
+  "build/ejemploLatex.aux" 1693952253 2253 44c894fb15e4d5d634b66a6ce6b3799a "pdflatex"
+  "build/ejemploLatex.out" 1693952253 1074 10a3d4b146617c35453dba585352c7ce "pdflatex"
+  "c:/Users/brand/OneDrive/Documentos/Upiita/2023-2/TransmisiondeDatos/TDD--Apuntes/IoT/ejemploLatex.tex" 1693952216 7264 f89a4c7a80a07269f6d45794314f4e82 ""
+  "coffeem.jpg" 1693951510 6919 70eb8a21eef6a1b821a05e764a173730 ""
   "ejemploLatex.bbl" 1693935570 1259 3bcec0a7d23e5c4a61ac690a469d4a06 "bibtex ejemploLatex"
-  "ejemploLatex.tex" 1693950833 6829 b28492feda4b8bd33befe3339cbabe95 ""
+  "ejemploLatex.tex" 1693952216 7264 f89a4c7a80a07269f6d45794314f4e82 ""
   (generated)
   "build/ejemploLatex.aux"
   "build/ejemploLatex.log"
