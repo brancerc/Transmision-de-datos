@@ -21,140 +21,93 @@
 \usepackage{latexsym} 
 
 
-\title{First Practice}
-\author{Rodolfo Vera} 
+\title{Ensayo sobre IoT y IoE}
+\author{Cervantes Contreras Brando} 
 
 
 \begin{document}
 \maketitle
 
 %%\vspace{-13mm}
-\begin{abstract}
-     Hola Mundo
-\end{abstract}
 
 \section{Introduction} \label{introduction}
+ According to an article published in 2015 reference as \cite{keylchui2010internetist}, even though it isnt quite new, it has an interesting approach
+ about how the internet of things could be evolving in the near future and how it is perceived.
+ It says that, the physical world itself is becoming a type of information system.
+ Where everything being connected, objects itself can sense the environment 
+ and communicate, they become some sort of tools for understanding 
+ the complexity of the modern world and respond to it.
+ What’s revolutionary in all this is that these physical information systems are now beginning to 
+ be deployed, and some of them even work largely without human intervention.
 
-Here, we will call for the first cite, reference as \cite{van2014nature}. So, like in \cite{van2014nature,xu2015animal,xu2015animal} we can establish that the animal behaviour, like the random walk can be modelled. Here you can put a general motivation, the problem, related work or state of art, and a general description of the contents of this document.
 
 %%GRAMMARLY 
 
 \section{Objectives}
 
-This is the general objective of the practice
-\subsection{Specific objectives or tasks}
-Here you can put bullets to put each objective...
-\begin{itemize}
-\item First task
-\item 2nd bullet
-	\begin{itemize} 
-		\item SubFirst bullet
+First we'll give some definitions.
+\subsection{Internet of Things (IoT)}
+From what I understand, IoT can be defined as the possibility of giving everyday objects the ability to identify themselves, by using sensors and actuators, 
+and then communicate with other objects 
+through wired and wireless networks, often using the same Internet Protocol (IP). These networks will carry high volumes of data for computers for analysis, and will 
+return information that are valuable to us.
+Some types of applications for IoT are:
+\begin{enumerate}
+     \item Consumer Type
+     \begin{itemize}
+          \item HomeAndOffice -  Some examples are Smart Houses, Programmed Light, Smart consume.
+          \item Wearables - IoWt (Internet of wearable things) they are usually small and are part of everyday use, also portable and highly responsive. 
+          Smart watches, Elders monitoring and voice control are some.
+     \end{itemize}
+     \item Commercial Type
+     \begin{itemize}
+          \item Medical care (quick and more accurate measurement)
+          \item Transportation (smart parking)
+          \item Construction and home automation (Control of energy consumption)
      \end{itemize}
 
-\item Second task
-\end{itemize}
-
-Or if you prefer, you can put numbers like this
-\begin{enumerate}
-\item One thing
-	\begin{enumerate}
-		\item One thing
-		\item Second Thing
-	\end{enumerate}
-\item Second Thing
 \end{enumerate}
 
-\section{System model or design or how it works }\label{systemModel}
-Here you can put the solution to the problem you described in section \ref{introduction}. Use diagrams, flow diagrams, tables, figures, describe the technologies, protocols, standards, methods, algorithms, etc. you are using and why. 
-As you can see in the Fig. \ref{thermalmonitoring}, there's a lot of ways you can manipulate the  Figures. 
+\subsection{Internet of Everything (IoE)}
+IoE is like a IoT but amplified, because it covers a wider connectivity where network intelligence works as the main part. It is the intelligent integration 
+and connection between 4 key elements:
+\begin{enumerate}
+     \item People
+     \item Process
+     \item Data 
+     \item Things 
+\end{enumerate}
 
-\begin{figure}[!htbp]
- \centering
-		\includegraphics[width=7 cm]{animalmonitoring.png} 
-        \caption{Experiment scenario}  
-        \label{thermalmonitoring} 
-        
-\end{figure}  
-
-Besides you can include two subfigures at the same time. like in Fig. \ref{Fig2}. Here you can see that in \cref{thermalmonitoring,thermalmonitoring2,swarm} we are trying to implement a thermal video footage with a Flir camera to study the vital signs of a cattle using a video and a swarm of unmanned aerial vehicles (UAVs). 
-
-\begin{figure}	
- \centering
-	\begin{subfigure}{.2\textwidth}
-		\includegraphics[width=3 cm]{thermalmonitoring.jpg}
-        \subcaption{Thermal monitoring 1}
-        \label{thermalmonitoring} 
-   \end{subfigure}
-   \begin{subfigure}{.2\textwidth}
-		\includegraphics[width=3 cm]{thermalmonitoring2.jpg}
-         \subcaption{Thermal monitoring 2}
-        \label{thermalmonitoring2} 
-   \end{subfigure}  
-   \begin{subfigure}{.2\textwidth}
-		\includegraphics[width=4 cm]{swarm.jpg}
-         \subcaption{For swarm }
-        \label{swarm} 
-   \end{subfigure}  
-   \caption{ System implementation of an animal monitoring}
-   \label{Fig2}
-\end{figure}
-
-then, using the Eq. (\ref{equation1}) we'll able to calculate the velocity of the UAVs when they are flying as 
-
-\begin{equation}\label{equation1}
-\nu = \frac{d}{t} 
-\end{equation}
-
-where $\nu$ is the velocity, $d$ is for distances in meters and $t$ for time in seconds. On table \ref{table1}, it is described the drone specs. In the following section we will describe the development involve in the making of this work. 
-
-\begin{table}
-
-\caption{UAV Specs}
-\centering
-\begin{tabular}{| c | c | c | c | }
-%\toprule
-\hline
-
-\textbf{UAV} & \textbf{Size}	& \textbf{Type} & \textbf{Range}  \\
-%\midrule
-\hline
-
- $UAV_1$   & $500\sim$mm	& Quadrotor     & $1000\sim$m
-      \\ 
-  
- $UAV_2$   & $500\sim$mm	& Quadrotor   & $1000\sim$m        
-   \\
-
- $UAV_3$   & $500\sim$mm	& Quadrotor     & $1000\sim$m        
-    \\
-%\bottomrule
-\hline
-\end{tabular}
-\label{table1}
-\end{table}
-\section{Development}
-Based on the system model described in section \ref{systemModel}, we develop a system that measures the vital signs of a cattle o 10 cows using Flir technology installed in a swarm of drones. 
-\subsection{The Cattle}
-The cattle was inside of... 
-\subsection{The swarm}
-The swarm of UAvs consists on five quadrotors drones, and each drone has the specfications described on table \ref{table1}.
-\subsection{Flir camera}
-Here the model Flir camera was used and install on every drone... 
-\subsection{The monitoring system}
-Here, we integrate all ths subsystems, connecting Flir camera to drone through audio video cable and sending the images to GCS with a video transmitter (VT) attacehd to drones. 
- 
-\section{Results}
-Here, you can described the scenario, the tests you made and finally the results, with figs.
-
-\section{Conclusions} 
-
-What did work? what did not? why? What can you fix? What have you learned? and future work, what else can you develop from here?, what can be improved?
+The main difference between IoT and IoE is that in IoE human intervention is needed, so a higher decision-making and business model also.
 
 
+\section{Questions }\label{systemModel}
+\begin{itemize}
+     \item What IoT/IoE Projects do you know?
+     There's one that recently came to my attention, it assures to be the first IoT device, it can be referenced as \cite{xu2015animal}
+     \item What IoT/IoE Projects have used?
+     \item What IoT/IoE Projects have you developed?
+     \item What IoT/IoE Projects do you want to develop?
+\end{itemize}
 
 
+\section{Future
+projects/technologies}
+
+\section{Conclusions}
+
+A fascinating world of interconnection of objects, measuring variables, gathering information about the environment, about health, about our homes, and mostly about us.
+It is extremely important to develop knowledge in this area together with the idea of the importance of the security of this type of connection, how safe we can make the transmission of our information.
+
+El internet de las cosas es mas que nada el futuro y evolucion del tan avanzado uso de la mayor red a nivel global, el internet, asi mismo el mundo de las comunicaciones
+va de la mano con el descubrimiento y acceso a la informacion, esto significa que garantiza que todo esta tecnología seguira en constante evolución hasta un punto en que todo este conectado 
+, para que esto se lleve a cabo muy probablemente se encontraran mas formas de medir los datos a traves de sensores y actuadores, cada vez, mas sofisticados y puede ser 
+que hasta mas baratos para mayor numero y alcance. Solo me deja pensando que si todo se encuentra conectado, ¿será mas facil para terceros el acceder a nuestra información 
+confidencial?, ¿de verdad es buena idea dejar todo en manos de algo que puede en algun punto dado puede llegar a salirse de nuestro control?. 
+(Me parecío importante dar una parte de la conclusion en español para abarcar mayor profundidad y poder explayarme un poco mas.)
 
 \bibliographystyle{ieeetran}
+
 
 \bibliography{References2}
 

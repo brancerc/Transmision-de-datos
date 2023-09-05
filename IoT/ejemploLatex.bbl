@@ -21,16 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{van2014nature}
-J.~C. van Gemert, C.~R. Verschoor, P.~Mettes, K.~Epema, L.~P. Koh, and S.~Wich,
-  ``Nature conservation drones for automatic localization and counting of
-  animals,'' in \emph{European Conference on Computer Vision}.\hskip 1em plus
-  0.5em minus 0.4em\relax Springer, 2014, pp. 255--270.
+\bibitem{chui2010internet}
+C.~et~al., ``The internet of things,'' in \emph{IoT}.\hskip 1em plus 0.5em
+  minus 0.4em\relax McKinsey Company, 2010, pp. 3--4.
 
 \bibitem{xu2015animal}
-J.~Xu, G.~Solmaz, R.~Rahmatizadeh, D.~Turgut, and L.~B{\"o}l{\"o}ni, ``Animal
-  monitoring with unmanned aerial vehicle-aided wireless sensor networks,'' in
-  \emph{2015 IEEE 40th Conference on Local Computer Networks (LCN)}.\hskip 1em
-  plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 125--132.
-
+El primer dispositivo IoT de la historia fue una máquina de Coca-Cola. (s. f.). in
+  \emph{ https://www.elladodelmal.com/2018/05/el-primer-dispositivo-iot-de-la.html}.
 \end{thebibliography}
