@@ -1,7 +1,7 @@
 .build
 *.jpg
 *.png
-IoT/coffee.webp
+coffee.webp
 ejemploLatex.bbl
 ejemploLatex.synctex.gz
 indent.log
