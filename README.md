@@ -1,2 +1,2 @@
 # TDD--Apuntes
-Apuntes de la materia de Transmisión de Datos.
+Apuntes y practicas de la materia de Transmisión de Datos.
